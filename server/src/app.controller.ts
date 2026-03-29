@@ -1,0 +1,15 @@
+import { Controller, Get } from '@nestjs/common';
+import { ApiOperation, ApiTags } from '@nestjs/swagger';
+
+@ApiTags('Health')
+@Controller()
+export class AppController {
+  @Get('health')
+  @ApiOperation({ summary: 'Health check' })
+  health() {
+    return {
+      message: 'Famora API is running',
+      data: { status: 'ok', timestamp: new Date().toISOString() },
+    };
+  }
+}
