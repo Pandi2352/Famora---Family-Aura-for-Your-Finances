@@ -240,7 +240,7 @@ Seed script
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/Pandi2352/famora.git
+git clone https://github.com/Pandi2352/Famora---Family-Aura-for-Your-Finances.git
 cd famora
 
 # Install backend
@@ -461,7 +461,7 @@ This project is licensed under the MIT License.
 
 <br/>
 
-<a href="https://github.com/Pandi2352/famora">
+<a href="https://github.com/Pandi2352/Famora---Family-Aura-for-Your-Finances">
 <img src="https://img.shields.io/badge/Star_this_repo-⭐-yellow?style=for-the-badge" />
 </a>
 
